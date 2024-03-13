@@ -38,9 +38,9 @@ body  {
     
   }
   #ch5{
-    background-image: url("../images/backgrounds/bg_ruins.jpg");
-    background-repeat:repeat-y;
-    background-size:contain;
+    background-image: url("../images/backgrounds/bg_forest_new.jpg");
+    background-repeat:both;
+    background-size:cover;
     
   }
 
