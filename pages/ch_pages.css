@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body  {
+    font-family: "Indie Flower";
+    margin: 0;
+    padding: 0;
+    background-position-y: 20%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    scroll-snap-type: y mandatory;
+    animation: fadeIn 2s ease-in-out;
+    
+  }
+
+  #ch1{
+    background-image: url("../images/backgrounds/bg_village.jpeg");
+    background-repeat:no-repeat ;
+   
+  }
+
+  #ch2{
+    background-image: url("../images/backgrounds/bg_forest.jpg");
+    background-repeat:repeat-y;
+    background-size:contain;
+    
+  }
+
+  #ch3{
+    background-image: url("../images/backgrounds/bg_ruins.jpg");
+    background-repeat:repeat-y;
+    background-size:contain;
+    
+  }
+  #ch4{
+    background-image: url("../images/backgrounds/bg_castle.jpg");
+    background-repeat:repeat-y;
+    background-size:contain;
+    
+  }
+  #ch5{
+    background-image: url("../images/backgrounds/bg_ruins.jpg");
+    background-repeat:repeat-y;
+    background-size:contain;
+    
+  }
+
+  header {
+    
+    color: #0f0f0f;
+    padding: 10px 20px;
+    font-size: 32px;
+    position: relative;
+   
+  }
+
+  .main_div {
+    position: relative;
+    top: 2rem;
+    background-color: beige;
+    width: 100%;
+    align-items: center;
+    height: 50%; /* specify the height */
+    
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 52px;
+    
+  }
+  
+  nav {
+    background-color: #ddd;
+    padding: 10px 20px;
+    
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+
+    
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    
+    
+  }
+  
+  a {
+    color: #0f0f0f;
+    text-decoration: none;
+    font-family: "Indie Flower";
+    font-size: 30px;
+  }
+  
+  main {
+    padding: 10%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 48px;
+    
+  }
+  
+  p {
+    text-indent: 20px;
+    color: #0f0f0f;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+
+  .dropbtn {
+    background-color: #ddd;
+    color: #0f0f0f;
+    font-size: 24px;
+    border: none;
+    font-family: "Indie Flower";
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ddd;
+    min-width: 320px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f2f2f2;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  .next-page {
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    z-index: 2;
+  }
+
+
+  
+  
+ 
+  
+ 
