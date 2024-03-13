@@ -4,7 +4,7 @@ body  {
     font-family: "Indie Flower";
     margin: 0;
     padding: 0;
-    background-image: url("images/backgrounds/bg_main.jpeg");
+    background-image: url("./images/backgrounds/bg_main.jpeg");
     background-position-y: 20%;
     background-position-x: 50%;
     background-repeat: no-repeat;
@@ -63,31 +63,31 @@ body  {
 }
 
   .character-box:nth-child(1) {
-    background-image: url('/images/characters/finnian/finnian_1.png');
+    background-image: url('./images/characters/finnian/finnian_1.png');
     background-size: cover;
     background-position: center;
 }
 
 .character-box:nth-child(2) {
-    background-image: url('/images/characters/gareth/gareth_1.png');
+    background-image: url('./images/characters/gareth/gareth_1.png');
     background-size: cover;
     background-position: center;
 }
 
 .character-box:nth-child(3) {
-    background-image: url('/images/characters/elara/elara_3.png');
+    background-image: url('./images/characters/elara/elara_3.png');
     background-size: cover;
     background-position: center;
 }
 
 .character-box:nth-child(4) {
-    background-image: url('/images/characters/corvus/corvus_2.png');
+    background-image: url('./images/characters/corvus/corvus_2.png');
     background-size: cover;
     background-position: center;
 }
 
 .character-box:nth-child(5) {
-    background-image: url('/images/characters/seraphina/seraphina_1.png');
+    background-image: url('./images/characters/seraphina/seraphina_1.png');
     background-size: cover;
     background-position: center;
 }
@@ -132,31 +132,31 @@ body  {
 }
 
 .location-box:nth-child(1) {
-  background-image: url('/images/backgrounds/bg_village.jpeg');
+  background-image: url('./images/backgrounds/bg_village.jpeg');
   background-size: cover;
   background-position: center;
 }
 
 .location-box:nth-child(2) {
-  background-image: url('/images/backgrounds/bg_forest.jpg');
+  background-image: url('./images/backgrounds/bg_forest.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .location-box:nth-child(3) {
-  background-image: url('/images/backgrounds/bg_ruins.jpg');
+  background-image: url('./images/backgrounds/bg_ruins.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .location-box:nth-child(4) {
-  background-image: url('/images/backgrounds/bg_castle.jpg');
+  background-image: url('./images/backgrounds/bg_castle.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .location-box:nth-child(5) {
-  background-image: url('/images/backgrounds/bg_forest_new.jpg');
+  background-image: url('./images/backgrounds/bg_forest_new.jpg');
   background-size: cover;
   background-position: center;
 }
